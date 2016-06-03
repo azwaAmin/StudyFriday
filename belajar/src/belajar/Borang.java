@@ -39,7 +39,7 @@ public class Borang extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setText("Creria selalu");
+        jLabel1.setText(dekan.dapat());
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

@@ -5,8 +5,10 @@
  */
 package belajar;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -27,6 +29,20 @@ public class Belajar {
        catch(IOException h){
            
        }
+   }
+   public String dapat(){
+       try{
+           File inFile = new File("wan.txt");
+            FileReader fileReader = new FileReader(inFile);
+      BufferedReader bufReader = new BufferedReader(fileReader);
+      String huhu = bufReader.readLine();
+      bufReader.close();
+      return huhu;           
+       }
+       catch(IOException e){
+           
+       }
+       return "grimace";
    }
     public static void main(String[] args) {
         // TODO code application logic here

@@ -78,7 +78,9 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Creria selalu"/>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="dekan.dapat()" type="code"/>
+            </Property>
           </Properties>
         </Component>
       </SubComponents>
